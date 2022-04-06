@@ -1,0 +1,69 @@
+html{
+    font-size:62.5% ;
+}
+
+body{
+    margin:0 auto;
+    max-width: 1440px;
+    background-color: rgb(130, 168, 218);
+    font-size: 1.6rem;
+    
+}
+
+h2{
+    padding: 15px;
+}
+.cabecalho{
+    padding: 30px 15px;
+    position: relative;
+}
+
+.cabecalho .logo{
+    background: url(logo3.png)  center center no-repeat ;
+    width: 140px;
+    height: 110px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top:30px ;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+.facu{
+    margin: 10px;
+    padding: 10px;
+}
+.facu p{
+    padding: 5px;
+}
+
+
+.habilidade-competencia{
+    margin: 15px;
+}
+.habilidade-competencia p{
+    margin: 5px;
+}
+
+div.projetos-git{
+    padding: 15px;
+}
+.projetos-git a{
+    padding: 5px;
+}
