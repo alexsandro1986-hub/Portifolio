@@ -19,27 +19,20 @@
         width: 100%;
         display: block;
     }
+    .rodape nav ul li{
+        display: block;
+    }
+    .rodape ul li a:hover{
+        font-weight: bold;
+        background-color: white;
+        color: red;
+    }
 }
 @media(max-width: 425px){
-    .cabecalho .logo{
-        display: block;
-        margin: 0 auto;
-    }
-    .cabecalho nav{
-        position: static;
-        text-align:center;
-        width: 100%;
-    }
-    .cabecalho nav ul li{
-        display: block;
-    }
-
-    .cabecalho nav ul li a{
-        width: 100%;
-        display: block;
-    }
+    
 
     .painel h2{
         font-size:2.5rem;
-    }
+  
+ }
 }

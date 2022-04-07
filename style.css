@@ -5,11 +5,14 @@ html{
 body{
     margin: 0 auto;
     max-width: 900px;
-    background-color: rgb(139, 167, 202);
+    background-color: rgb(80, 74, 74);
     font-size: 1.6rem;
     
 }
 
+main{
+    background-color: rgb(241, 245, 248);
+}
 h2{
     padding: 15px;
 }
@@ -33,18 +36,23 @@ h2{
     display: inline-block;
     position: absolute;
     right: 0;
-    margin-top:30px ;
+    margin-top:40px ;
 }
 
 .cabecalho ul li{
     display: inline-block;
     padding: 15px;
+    
 }
 
+.cabecalho ul li a{
+    color: rgb(202, 211, 204);
+    
+}
 .cabecalho ul li a:hover{
     font-weight: bold;
-    background-color: white;
-    color: red;
+    
+    color: rgb(123, 140, 238);
 }
 
 .facu{
@@ -66,17 +74,33 @@ h2{
 .projetos-git p{
     padding: 5px;
 }
-.projetos-git a{
+.projetos-git a:hover{
     padding: 5px;
 }
 .contato p{
     padding: 5px;
 }
 
+.redes-sociais a img{
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    
+    
+}
+
+.rodape ul li a{
+    color: rgb(202, 211, 204);
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
 .rodape ul li a:hover{
     font-weight: bold;
-    background-color: white;
-    color: red;
+    color: rgb(123, 140, 238);
 }
 .rodape nav{
     display: inline-block;
@@ -85,7 +109,5 @@ h2{
     margin-top:30px ;
 }
 
-.rodape ul li{
-    display: inline-block;
-    padding: 15px;
-}
+
+
